@@ -48,7 +48,7 @@ public class mainBattle {
             akhir(hero1.getName());
         }
     }
-    public static void  akhir (String nama) {
+    public static void  result(String nama) {
             System.out.println(nama + " memenangkan pertandingan");
             System.out.println("Pertandingan telah selesai");
             System.out.println();
