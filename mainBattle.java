@@ -42,10 +42,10 @@ public class mainBattle {
         }
         
         if (hero1.getHitPoint()<=0) {
-            akhir(hero2.getName());
+            result(hero2.getName());
         } 
         else {
-            akhir(hero1.getName());
+            result(hero1.getName());
         }
     }
     public static void  result(String nama) {
